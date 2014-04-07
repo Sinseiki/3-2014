@@ -257,6 +257,11 @@ static const HangulCombination hangul_combination_ahn = {
     (HangulCombinationItem*)hangul_combination_table_ahn
 };
 
+static const HangulCombination hangul_combination_2014 = {
+    N_ELEMENTS(hangul_combination_table_2014),
+    (HangulCombinationItem*)hangul_combination_table_2014
+};
+
 static const HangulKeyboard hangul_keyboard_2 = {
     HANGUL_KEYBOARD_TYPE_JAMO,
     "2", 
