@@ -16,50 +16,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: hangul/hangulinputcontext.c:263
+#: hangul/hangulinputcontext.c:268
 msgid "Dubeolsik"
 msgstr "두벌식"
 
-#: hangul/hangulinputcontext.c:271
+#: hangul/hangulinputcontext.c:276
 msgid "Dubeolsik Yetgeul"
 msgstr "두벌식 옛글"
 
-#: hangul/hangulinputcontext.c:279
+#: hangul/hangulinputcontext.c:284
 msgid "Sebeolsik Dubeol Layout"
 msgstr "세벌식 두벌자판"
 
-#: hangul/hangulinputcontext.c:287
+#: hangul/hangulinputcontext.c:292
 msgid "Sebeolsik 390"
 msgstr "세벌식 390"
 
-#: hangul/hangulinputcontext.c:295
+#: hangul/hangulinputcontext.c:300
 msgid "Sebeolsik Final"
 msgstr "세벌식 최종"
 
-#: hangul/hangulinputcontext.c:303
+#: hangul/hangulinputcontext.c:308
 msgid "Sebeolsik Noshift"
 msgstr "세벌식 순아래"
 
-#: hangul/hangulinputcontext.c:311
+#: hangul/hangulinputcontext.c:316
 msgid "Sebeolsik Yetgeul"
 msgstr "세벌식 옛글"
 
-#: hangul/hangulinputcontext.c:319
+#: hangul/hangulinputcontext.c:324
 msgid "Romaja"
 msgstr "로마자"
 
-#: hangul/hangulinputcontext.c:327
+#: hangul/hangulinputcontext.c:332
 msgid "Ahnmatae"
 msgstr "안마태 소리글판"
 
-#: hangul/hangulinputcontext.c:335
+#: hangul/hangulinputcontext.c:340
 msgid "Sebeolsik 3-2011"
 msgstr "세벌식 3-2011"
 
-#: hangul/hangulinputcontext.c:343
+#: hangul/hangulinputcontext.c:348
 msgid "Sebeolsik 3-2012"
 msgstr "세벌식 3-2012"
 
-#: hangul/hangulinputcontext.c:351
+#: hangul/hangulinputcontext.c:356
 msgid "Sebeolsik Jonghab"
 msgstr "세벌식 종합"
