@@ -2276,7 +2276,7 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x0037,     /* 0x37 7:              7                            */
     0x0038,     /* 0x38 8:              8                            */
     0x0039,     /* 0x39 9:              9                            */
-    0x003a,     /* 0x3A colon:          colon                        */
+    0x0034,     /* 0x3A colon:          4                            */
     0x1169,     /* 0x3B semicolon:      jungseong o                  */
     0x002c,     /* 0x3C less:           comma                        */
     0x003d,     /* 0x3D equal:          euals sign                   */
