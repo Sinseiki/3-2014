@@ -2348,7 +2348,7 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x0000      /* 0x7F delete                                       */
 };
 
-static const HangulCombinationItem hangul_combination_table_2014[] = {
+static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x1100110b, 0x1101 }, /* choseong  kiyeok + ieung   = ssangkiyeok   */
   { 0x110b1100, 0x1101 }, /* choseong  ieung  + kiyeok  = ssangkiyeok   */
   { 0x1103110b, 0x1104 }, /* choseong  tikeut + ieung   = ssangtikeut   */
