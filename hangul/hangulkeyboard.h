@@ -2337,7 +2337,7 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x1167,     /* 0x74 t:              jungseong yeo                */
     0x1103,     /* 0x75 u:              choseong  tikeut             */
     0x1169,     /* 0x76 v:              jungseong o                  */
-    0x1109,     /* 0x77 w:              choseong  sios               */
+    0x11ba,     /* 0x77 w:              jongseong sios               */
     0x11a8,     /* 0x78 x:              jongseong kiyeok             */
     0x1105,     /* 0x79 y:              choseong  rieul              */
     0x11b7,     /* 0x7A z:              jongseong mieum              */
@@ -2422,7 +2422,7 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x11ab11b7, 0x11ae }, /* jongseong nieun  + mieum   = tikeut        */
   { 0x11ab11bc, 0x11b8 }, /* jongseong nieun  + ieung   = pieup         */
   { 0x11ab11c2, 0x11ad }, /* jongseong nieun  + hieuh   = nieun-hieuh   */
-  { 0x11ae11c0, 0x11b4 }, /* jongseong tikeut + rieul   = rieul-thieuth */
+  { 0x11ae11af, 0x11b4 }, /* jongseong tikeut + rieul   = rieul-thieuth */
   { 0x11ae11b8, 0x11b5 }, /* jongseong tikeut + pieup   = rieul-phieuph */
   { 0x11ae11c2, 0x11c0 }, /* jongseong tikeut + hieuh   = thikeuth      */
   { 0x11af11a8, 0x11b0 }, /* jongseong rieul  + kiyeok  = rieul-kiyeok  */
