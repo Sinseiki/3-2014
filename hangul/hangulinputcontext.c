@@ -355,7 +355,7 @@ static const HangulKeyboard hangul_keyboard_3_2014 = {
     "3-2014",
     N_("Sebeolsik 3-2014 Tonghab"),
     (ucschar*)hangul_keyboard_table_3_2014,
-    &hangul_combination_2014
+    &hangul_combination_3_2014
 };
 
 static const HangulKeyboard* hangul_keyboards[] = {
