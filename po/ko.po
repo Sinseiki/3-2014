@@ -61,5 +61,5 @@ msgid "Sebeolsik 3-2012"
 msgstr "세벌식 3-2012"
 
 #: hangul/hangulinputcontext.c:356
-msgid "Sebeolsik 3-2014 Tonghab"
-msgstr "세벌식 3-2014 통합"
+msgid "Sebeolsik Moachigi 2014"
+msgstr "세벌식 모아치기 2014"
