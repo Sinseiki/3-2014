@@ -2349,6 +2349,8 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
 };
 
 static const HangulCombinationItem hangul_combination_table_3_2014[] = {
+  { 0x002c002c, 0x003c }, /* comma    +   comma =  less than sign       */
+  { 0x002c002e, 0x003e }, /* comma    +   period = greater than sign    */
   { 0x1100110b, 0x1101 }, /* choseong  kiyeok + ieung   = ssangkiyeok   */
   { 0x11001112, 0x110f }, /* choseong  kiyeok + hieuh   = khieukh       */
   { 0x1103110b, 0x1104 }, /* choseong  tikeut + ieung   = ssangtikeut   */
@@ -2477,4 +2479,6 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x11c211b8, 0x11c1 }, /* jongseong hieuh  + pieup   = phieuph       */
   { 0x11c211ba, 0x11be }, /* jongseong hieuh  + sios    = chieuch       */
   { 0x11c211bb, 0x11b6 }, /* jongseong hieuh  + ssangsios = rieul-hieuh */
+  { 0x300c300c, 0x300e }, /* 「 left corner bracket  + 「 left corner bracket = 『 left white corner             */
+  { 0x300d300d, 0x003f }, /* 」 right corner bracket +  」 right corner bracket =  』 right white corner bracket */
 };
