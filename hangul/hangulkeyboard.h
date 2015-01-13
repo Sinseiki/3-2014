@@ -2266,16 +2266,16 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x002d,     /* 0x2D minus:          minus sign                   */
     0x002e,     /* 0x2E period:         period                       */
     0x002f,     /* 0x2F slash:          slash                        */
-    0x1159,     /* 0x30 0:              choseong yeorinhieuh                            */
+    0x1159,     /* 0x30 0:              choseong yeorinhieuh         */
     0x11b9,     /* 0x31 1:              jongseong pieup-sios         */
     0x11ae,     /* 0x32 2:              jongseong tikeut             */
     0x11b8,     /* 0x33 3:              jongseong pieup              */
     0x116d,     /* 0x34 4:              jungseong yo                 */
     0x1163,     /* 0x35 5:              jungseong ya                 */
-    0x119e,     /* 0x36 6:              jungseong araea                            */
-    0x11a1,     /* 0x37 7:              jungseong araeae                            */
-    0x1140,     /* 0x38 8:              choseong pansios                            */
-    0x1147,     /* 0x39 9:              choseong ssangieung                            */
+    0x119e,     /* 0x36 6:              jungseong araea              */
+    0x11a1,     /* 0x37 7:              jungseong araeae             */
+    0x1140,     /* 0x38 8:              choseong pansios             */
+    0x1147,     /* 0x39 9:              choseong ssangieung          */
     0x0034,     /* 0x3A colon:          4                            */
     0x11bb,     /* 0x3B semicolon:      jongseong ssangsios          */
     0x003c,     /* 0x3C less:           less-than sign               */
@@ -2560,7 +2560,7 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x11b911c2, 0x11f0 }, /* jongseong pieup-sios + hieuh = yesieung    */
   { 0x11ba11a8, 0x11aa }, /* jongseong sios   + kiyeok  = kiyeok-sois   */
   { 0x11ba11ab, 0x11c7 }, /* jongseong sios   + nieun   = nieun-sios    */
-  { 0x11ba11ae, 0x11e8 }, /* jongseong sios   + tikeut  = sios-tikeut */  
+  { 0x11ba11ae, 0x11e8 }, /* jongseong sios   + tikeut  = sios-tikeut   */  
   { 0x11ba11af, 0x11bd }, /* jongseong sios   + rieul   = cieuc         */
   { 0x11ba11b0, 0x11cc }, /* jongseong sios + rieul-kiyeok = rieul-kiyeok-sios */
   { 0x11ba11b7, 0x11dd }, /* jongseong sios   + mieum    = mieum-sios   */   
