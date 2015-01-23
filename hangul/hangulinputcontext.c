@@ -257,9 +257,9 @@ static const HangulCombination hangul_combination_ahn = {
     (HangulCombinationItem*)hangul_combination_table_ahn
 };
 
-static const HangulCombination hangul_combination_3_moa_2014 = {
-    N_ELEMENTS(hangul_combination_table_3_moa_2014),
-    (HangulCombinationItem*)hangul_combination_table_3_moa_2014
+static const HangulCombination hangul_combination_3_2014 = {
+    N_ELEMENTS(hangul_combination_table_3_2014),
+    (HangulCombinationItem*)hangul_combination_table_3_2014
 };
 
 static const HangulKeyboard hangul_keyboard_2 = {
@@ -350,20 +350,12 @@ static const HangulKeyboard hangul_keyboard_3_2012 = {
     &hangul_combination_full
 };
 
-static const HangulKeyboard hangul_keyboard_3_moa_2014 = {
+static const HangulKeyboard hangul_keyboard_3_2014 = {
     HANGUL_KEYBOARD_TYPE_JASO,
-    "3-moa-2014",
+    "3-2014",
     N_("Sebeolsik Moachigi 2014"),
-    (ucschar*)hangul_keyboard_table_3_moa_2014,
-    &hangul_combination_3_moa_2014
-};
-
-static const HangulKeyboard hangul_keyboard_3_moa_2014_o = {
-    HANGUL_KEYBOARD_TYPE_JASO,
-    "3-moa-2014-o",
-    N_("Sebeolsik Moachigi 2014 O Change"),
-    (ucschar*)hangul_keyboard_table_3_moa_2014_o,
-    &hangul_combination_3_moa_2014
+    (ucschar*)hangul_keyboard_table_3_2014,
+    &hangul_combination_3_2014
 };
 
 static const HangulKeyboard* hangul_keyboards[] = {
@@ -375,8 +367,7 @@ static const HangulKeyboard* hangul_keyboards[] = {
     &hangul_keyboard_3yet,
     &hangul_keyboard_3_2011,
     &hangul_keyboard_3_2012,
-    &hangul_keyboard_3_moa_2014,
-    &hangul_keyboard_3_moa_2014_o,
+    &hangul_keyboard_3_2014,
     &hangul_keyboard_32,
     &hangul_keyboard_romaja,
     &hangul_keyboard_ahn,
