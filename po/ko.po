@@ -63,3 +63,7 @@ msgstr "세벌식 3-2012"
 #: hangul/hangulinputcontext.c:356
 msgid "Sebeolsik Moachigi 2014"
 msgstr "세벌식 모아치기 2014"
+
+#: hangul/hangulinputcontext.c:364
+msgid "Sebeolsik Moachigi 2014 O Change"
+msgstr "세벌식 모아치기 2014 ㅗ변형"
