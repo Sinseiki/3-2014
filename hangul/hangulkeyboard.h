@@ -2217,6 +2217,7 @@ ucschar hangul_keyboard_table_3_2012_ext[][3] = { /* 3-2012 자판 특수기호 
 
 
 
+
 static const ucschar hangul_keyboard_table_3_2014[] = {
     0x0000,     /* 0x00 null                                         */
     0x0000,     /* 0x01 start of heading                             */
