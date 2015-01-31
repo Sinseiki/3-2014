@@ -2274,7 +2274,7 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x116d,     /* 0x34 4:              jungseong yo                 */
     0x1163,     /* 0x35 5:              jungseong ya                 */
     0x119e,     /* 0x36 6:              jungseong araea              */
-    0x11a1,     /* 0x37 7:              jungseong araeae             */
+    0x11a2,     /* 0x37 7:              jungseong ssangaraea         */
     0x1140,     /* 0x38 8:              choseong pansios             */
     0x1147,     /* 0x39 9:              choseong ssangieung          */
     0x0034,     /* 0x3A colon:          4                            */
@@ -2452,7 +2452,7 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x1166116e, 0x1170 }, /* jungseong e      + u       = we            */
   { 0x11661175, 0x1168 }, /* jungseong e      + i       = ye            */
   { 0x1166119e, 0x1194 }, /* jungseong e      + araea   = yu-i          */
-  { 0x116611a1, 0x1192 }, /* jungseong e      + araeae  = yu-ye         */
+  { 0x116611a2, 0x1192 }, /* jungseong e      + ssangaraea = yu-ye      */
   { 0x11671165, 0x1164 }, /* jungseong yeo    + eo      = yae           */
   { 0x11671166, 0x1191 }, /* jungseong yeo    + e       = yu-yeo        */  
   { 0x11691161, 0x116a }, /* jungseong o      + a       = wa            */
@@ -2463,7 +2463,7 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x116c1161, 0x116b }, /* jungseong oe     + a       = wae           */
   { 0x116d1163, 0x1184 }, /* jungseong yo     + ya      = yo-ya         */  
   { 0x116d1175, 0x1188 }, /* jungseong yo     + i       = yo-i          */  
-  { 0x116d11a1, 0x1185 }, /* jungseong yo     + araeae  = yo-yae        */    
+  { 0x116d11a2, 0x1185 }, /* jungseong yo     + ssangaraea = yo-yae     */    
   { 0x116e1161, 0x1172 }, /* jungseong u      + a       = yu            */
   { 0x116e1165, 0x116f }, /* jungseong u      + eo      = weo           */
   { 0x116e1166, 0x1170 }, /* jungseong u      + e       = we            */
@@ -2488,8 +2488,8 @@ static const HangulCombinationItem hangul_combination_table_3_2014[] = {
   { 0x1175119e, 0x11a1 }, /* jungseong i      + araea   = araeae        */  
   { 0x119e1166, 0x1194 }, /* jungseong araea  + e       = yu-i          */
   { 0x119e1175, 0x11a1 }, /* jungseong araea  + i       = araeae        */  
-  { 0x11a11166, 0x1192 }, /* jungseong araeae + e       = yu-ye         */
-  { 0x11a1116d, 0x1185 }, /* jungseong araeae + yo      = yo-yae        */    
+  { 0x11a21166, 0x1192 }, /* jungseong ssangaraea + e   = yu-ye         */
+  { 0x11a2116d, 0x1185 }, /* jungseong ssangaraea + yo  = yo-yae        */    
   { 0x11a811ab, 0x11f9 }, /* jongseong kiyeok  + nieun   = yeorinhieuh  */
   { 0x11a811ae, 0x11d7 }, /* jongseong kiyeok + tikeut  = rieul-pansios */
   { 0x11a811af, 0x11b0 }, /* jongseong kiyeok + rieul   = rieul-kiyeok  */
