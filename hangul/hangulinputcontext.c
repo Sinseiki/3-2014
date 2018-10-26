@@ -353,7 +353,7 @@ static const HangulKeyboard hangul_keyboard_3_2012 = {
 static const HangulKeyboard hangul_keyboard_3_2014 = {
     HANGUL_KEYBOARD_TYPE_JASO,
     "3-2014",
-    N_("Sebeolsik Moachigi e-2017"),
+    N_("Sebeolsik Moachigi e-2018"),
     (ucschar*)hangul_keyboard_table_3_2014,
     &hangul_combination_3_2014
 };
