@@ -2256,12 +2256,12 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x0024,     /* 0x24 dollar: dollar sign                          */
     0x0025,     /* 0x25 percent: percent sign                        */
     0x0026,     /* 0x26 ampersand: ampersand                         */
-    0x002c,     /* 0x27 apostrophe: comma                            */
+    0x0027,     /* 0x27 apostrophe: apostrophe                       */
     0x0028,     /* 0x28 parenleft: left parenthesis                  */
     0x0029,     /* 0x29 parenright: right parenthesis                */
     0x002a,     /* 0x2A asterisk: asterisk                           */
     0x002b,     /* 0x2B plus: plus sign                              */
-    0x002e,     /* 0x2C comma: period                                */
+    0x002c,     /* 0x2C comma: comma                                 */
     0x002d,     /* 0x2D minus: minus sign                            */
     0x1169,     /* 0x2E period: jungseong o                          */
     0x002f,     /* 0x2F slash: slash                                 */
@@ -2287,27 +2287,27 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x300c,     /* 0x43 C: 「 left corner bracket                    */
     0x2192,     /* 0x44 D: → rightwards arrow                        */
     0x2661,     /* 0x45 E: ♡ white heart suit                       */
-    0x25CB,     /* 0x46 F: ○                                         */
-    0x00D7,     /* 0x47 G: ×                                         */
-    0x00B7,     /* 0x48 H: ·                                         */
-    0x2015,     /* 0x49 I: ―                                         */
-    0x110b,     /* 0x4A J: [$$$$#### 기호 ####$$$$]                  */
-    0x0027,     /* 0x4B K: apostrophe                                */
-    0x003B,     /* 0x4C L: colon                                     */
-    0x300F,     /* 0x4D M: 』                                        */
-    0x300E,     /* 0x4E N: 『                                        */
-    0x25B3,     /* 0x4F O: △ white up-pointing triangle             */
-    0x25bd,     /* 0x50 P: ▽ white down-pointing triangle           */
+    0x25B3,     /* 0x46 F: △ white up-pointing triangle              */
+    0x25bd,     /* 0x47 G: ▽ white down-pointing triangle            */
+    0x25a1,     /* 0x48 H: □ white square                            */
+    0x3008,     /* 0x49 I: 〈                                        */
+    0x110b,     /* 0x4A J:  choseong ieung                           */
+    0x203b,     /* 0x4B K: ※ reference mark                          */
+    0x00B7,     /* 0x4C L: ·                                         */
+    0x2026,     /* 0x4D M: …                                         */
+    0x2015,     /* 0x4E N: ―                                         */
+    0x3009,     /* 0x4F O: 〉                                        */
+    0x003B,     /* 0x50 P: semicolon                                 */
     0x2194,     /* 0x51 Q: ↔ left right arrow                        */
-    0x2606,     /* 0x52 R: ☆ white star                             */ 
+    0x2606,     /* 0x52 R: ☆ white star                              */ 
     0x2193,     /* 0x53 S: ↓                                         */
-    0x203b,     /* 0x54 T: ※ reference mark                         */
-    0x3009,     /* 0x55 U: 〉                                        */
+    0x25ce,     /* 0x54 T: ◎ bullseye                                */
+    0x25CB,     /* 0x55 U: ○                                         */
     0x300d,     /* 0x56 V: 」 right corner bracket                   */
     0x2191,     /* 0x57 W: ↑                                         */
-    0x25ce,     /* 0x58 X: ◎ bullseye                               */
-    0x3008,     /* 0x59 Y: 〈                                        */
-    0x25a1,     /* 0x5A Z: □ white square                            */
+    0x300F,     /* 0x58 X: 』                                        */
+    0x00D7,     /* 0x59 Y: ×                                         */
+    0x300E,     /* 0x5A Z: 『                                        */
     0x005b,     /* 0x5B bracketleft: left bracket                    */
     0x005c,     /* 0x5C backslash: backslash                         */
     0x005d,     /* 0x5D bracketright: right bracket                  */
@@ -2329,7 +2329,7 @@ static const ucschar hangul_keyboard_table_3_2014[] = {
     0x1105,     /* 0x6D m: choseong lieul                            */
     0x1109,     /* 0x6E n: choseong sieus                            */
     0x1107,     /* 0x6F o: choseong pieup                            */
-    0x116e,     /* 0x70 p: jungseong u                               */
+    0x002e,     /* 0x70 p: period u                                  */
     0x11ba,     /* 0x71 q: jongseong sieus                           */
     0x1165,     /* 0x72 r: jungseong eo                              */
     0x11ab,     /* 0x73 s: jongseong nieun                           */
